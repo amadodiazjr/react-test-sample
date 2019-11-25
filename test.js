@@ -25,7 +25,7 @@ describe("Home Page", function() {
         .then(takeScreenshot)
         .then(screenshot => {
           var base64Data = screenshot.replace(/^data:image\/png;base64,/,"")
-          fs.writeFile("out.png", base64Data, 'base64', function(err) {
+          fs.writeFile("actual/foo.png", base64Data, 'base64', function(err) {
             if(err) console.log(err);
           });
 

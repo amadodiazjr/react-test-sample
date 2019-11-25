@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "blink-diff": "^1.0.13",
     "mocha": "^6.2.2"
   }
 }
